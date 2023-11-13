@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "85592256808",
+    "project_id": "appmasyarakat",
+    "storage_bucket": "appmasyarakat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85592256808:android:7d1d74440a0996ea5fa01d",
+        "android_client_info": {
+          "package_name": "com.example.appmasyarakat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIDrZ87ZEyaxpDcnmDmS5s1x6YGRxnxwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
