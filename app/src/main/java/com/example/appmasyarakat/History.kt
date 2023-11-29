@@ -4,14 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class UploadActivity : AppCompatActivity() {
-    private lateinit var btnUpload: ImageView
+class History : AppCompatActivity() {
+    private lateinit var btnBack: ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_upload)
-        btnUpload = findViewById(R.id.btnUpload)
+        setContentView(R.layout.activity_history)
 
-        btnUpload.setOnClickListener {
+        btnBack = findViewById(R.id.btnBack)
+
+        btnBack.setOnClickListener {
             this.finish()
         }
     }

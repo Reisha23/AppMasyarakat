@@ -7,7 +7,7 @@
     tools:context=".Home">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/btnInsert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/btnHistory"
         android:layout_width="39dp"
         android:layout_height="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/lapinkat" />
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/btnhome"
         android:layout_width="37dp"
         android:layout_height="39dp"
         app:layout_constraintBottom_toBottomOf="parent"
