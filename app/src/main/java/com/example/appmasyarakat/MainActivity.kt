@@ -2,28 +2,21 @@ package com.example.appmasyarakat
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import java.util.Scanner
+import android.content.Intent
+import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var btnLogin: ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        btnLogin = findViewById(R.id.btnLogin)
+        
+        btnLogin.setOnClickListener{
+            val mvHome = Intent(this, Home::class.java)
+            startActivity(mvHome)
     }
-    fun main() {
-        val scanner = Scanner(System.`in`)
-        val username = "user123"
-        val password = "pass456"
 
-        print("Masukkan username: ")
-        val inputUsername = scanner.nextLine()
-
-        print("Masukkan password: ")
-        val inputPassword = scanner.nextLine()
-
-        if (inputUsername == username && inputPassword == password) {
-            println("Login berhasil! Selamat datang, $username.")
-        } else {
-            println("Login gagal. Username atau password salah.")
         }
     }
 }
