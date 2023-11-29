@@ -8,6 +8,18 @@
     tools:context=".LoginActivity">
 
   <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="160dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintVertical_bias="0.202"
+      app:srcCompat="@drawable/signup_button" />
+
+  <ImageView
       android:id="@+id/imageView7"
       android:layout_width="278dp"
       android:layout_height="52dp"
@@ -40,7 +52,7 @@
       app:layout_constraintHorizontal_bias="0.496"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageView8"
-      app:layout_constraintVertical_bias="0.265"
+      app:layout_constraintVertical_bias="0.16"
       app:srcCompat="@drawable/login_button" />
 
   <ImageView
