@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/HomeInfo"
+        android:layout_width="375dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:text="ini informasi berita masyarakat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/HomeFoto"
+        android:layout_width="371dp"
+        android:layout_height="231dp"
+        app:layout_constraintBottom_toTopOf="@+id/HomeNama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/HomeNama"
+        android:layout_width="163dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="4dp"
+        android:text="nama"
+        app:layout_constraintBottom_toTopOf="@+id/HomeAlamat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/HomeAlamat"
+        android:layout_width="164dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="4dp"
+        android:text="alamat"
+        app:layout_constraintBottom_toTopOf="@+id/HomeNomor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/HomeNomor"
+        android:layout_width="164dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="nomor"
+        app:layout_constraintBottom_toTopOf="@+id/HomeInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
