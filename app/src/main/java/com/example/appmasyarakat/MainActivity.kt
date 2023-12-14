@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Empty Fields Are not Allowed", Toast.LENGTH_SHORT).show()
             }
         }
-
         binding.btnSignUp.setOnClickListener {
             val mvRegisterActivity = Intent(this,RegisterActivity::class.java)
             startActivity(mvRegisterActivity)
