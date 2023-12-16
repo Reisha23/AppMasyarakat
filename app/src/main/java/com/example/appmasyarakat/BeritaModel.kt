@@ -1,8 +1,8 @@
 package com.example.appmasyarakat
 
-data class BeritaModel(
+data class BeritaModel (
     val nama: String = "test",
-    val alamat: String = "Test",
+    val alamat: String = "test",
     val foto: String = "test",
-    val informasi: String = "informasi",
-val email : String ="email")
+    val informasi: String = "Informasi",
+val email: String = "Email")

@@ -10,8 +10,8 @@ class BeritaViewModel : ViewModel() {
     val lisBerita: LiveData<MutableList<BeritaModel>>
         get() = _listberita
 
-    var _listBeritaHistory: MutableLiveData<MutableList<BeritaModel>> = MutableLiveData()
+    val _listBeritaHistory: MutableLiveData<MutableList<BeritaModel>> = MutableLiveData()
 
-    val listBeritaHistory: LiveData<MutableList<BeritaModel>>
-        get() = _listBeritaHistory
+   val listBeritaHistory: LiveData<MutableList<BeritaModel>>
+       get() = _listBeritaHistory
 }
